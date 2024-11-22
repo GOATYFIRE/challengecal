@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cal">
+        <button class="button zero" id="zero" onclick="zero()">None</button>
+        <button class="button one" id="10" onclick="myFunction()">10%</button>
+        <button class="button two" id="two" onclick="two()">20%</button>
+        <button class="button three" id="30" onclick="three()">30%</button>
+        <button class="button four" id="40" onclick="four()">40%</button>
+    </div>
+    
+    <div class="amount" id="amount"><var class="t" id="t">50$</var> total, would you like to add a tip?</div>
+    <div class="total" id="total"></div>
+    
+
+    <div class="totaltip" id="totaltip">Your total will show after you select an amount</div>
+    <script src="js.js"></script>
+</body>
+</html>
